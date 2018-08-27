@@ -6,6 +6,8 @@ public class AshibaManager : MonoBehaviour {
 
 	GameObject player;
 
+	//private Color Red = new Color(24f, 100f, 100f, 21f);
+/*
 	public Material AshibaMaterial;
 
 	public Material AshibaAtariMaterial;
@@ -16,13 +18,13 @@ public class AshibaManager : MonoBehaviour {
 	public GameObject ashiba004;
 	public GameObject ashiba005;
 	public GameObject ashiba006;
-
+*/
 	// Use this for initialization
 	void Start () {
 		//AshibaMaterial = Material.GetComponent<AshibaMaterial>();
 		//AshibaAtariMaterial = Material.FindGameObjectWithTag("AshibaAtariMaterial");
 
-		player = GameObject.FindGameObjectWithTag("Player");
+	/*	player = GameObject.FindGameObjectWithTag("Player");
 
 		ashiba001 = GameObject.FindGameObjectWithTag("ashiba001");
 		ashiba002 = GameObject.FindGameObjectWithTag("ashiba002");
@@ -30,7 +32,18 @@ public class AshibaManager : MonoBehaviour {
 		ashiba004 = GameObject.FindGameObjectWithTag("ashiba004");
 		ashiba005 = GameObject.FindGameObjectWithTag("ashiba005");
 		ashiba006 = GameObject.FindGameObjectWithTag("ashiba006");
-		
+
+	*/	
+		//Fetch the Renderer from the GameObject
+        Renderer rend = GetComponent<Renderer>();
+
+        //Set the main Color of the Material to green
+        rend.material.shader = Shader.Find("_Color");
+        rend.material.SetColor("_Color", Color.green);
+
+        //Find the Specular shader and change its Color to red
+        rend.material.shader = Shader.Find("Specular");
+        rend.material.SetColor("_SpecColor", Color.red);
 	}
 	
 	// Update is called once per frame
@@ -41,7 +54,18 @@ public class AshibaManager : MonoBehaviour {
 
 	void OnTriggerStay(Collider other)
     {
-       // if (other.attachedRigidbody)
-     //     ashiba002.AddComponent AshibaAtariMaterial;
+		Renderer rend001 = GetComponent<Renderer>();
+
+        //Set the main Color of the Material to green
+        rend001.material.shader = Shader.Find("_Color");
+        rend001.material.SetColor("_Color", Color.blue);
+
+        //Find the Specular shader and change its Color to red
+        rend001.material.shader = Shader.Find("Specular");
+        rend001.material.SetColor("_SpecColor", Color.green);
+	 	
+		 Debug.Log ("当たった");
+  //   rend.Shader = Red;
+               
     }
 }
