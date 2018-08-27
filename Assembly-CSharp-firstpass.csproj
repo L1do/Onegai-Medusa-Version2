@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A6E1295B-8AE5-6070-BB17-1A4E3158750C}</ProjectGuid>
+    <ProjectGuid>{51809D8A-4974-EEE8-BC66-1067359E7A1B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -208,16 +208,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/lawre/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0E046A64-3E97-DFAB-3C5D-EBB490354C8B}</ProjectGuid>
+    <ProjectGuid>{9FC04549-6A30-A004-3955-E73792800BBA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -185,22 +185,22 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="SyntaxTree.Mono.Cecil">
- <HintPath>C:/Users/lawre/Desktop/Onegai Medusa Back up/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/lawre/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -226,11 +226,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A6E1295B-8AE5-6070-BB17-1A4E3158750C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{51809D8A-4974-EEE8-BC66-1067359E7A1B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{6263A279-FA10-D4FF-2FE5-35DC6CF0299B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{7AD02831-ADC8-C2EC-CB41-B9A881EE1D28}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{C34776CF-7277-F404-F19A-D426E0D75CCA}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{A2A12F0B-0317-CE08-6122-EC6A0A294955}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
