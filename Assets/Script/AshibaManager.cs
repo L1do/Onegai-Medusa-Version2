@@ -5,6 +5,8 @@ using UnityEngine;
 public class AshibaManager : MonoBehaviour {
 
 	GameObject player;
+	GameObject PlayerLeftLeg;
+	GameObject PlayerRightLeg;
 
 	//private Color Red = new Color(24f, 100f, 100f, 21f);
 /*
@@ -24,8 +26,10 @@ public class AshibaManager : MonoBehaviour {
 		//AshibaMaterial = Material.GetComponent<AshibaMaterial>();
 		//AshibaAtariMaterial = Material.FindGameObjectWithTag("AshibaAtariMaterial");
 
-	/*	player = GameObject.FindGameObjectWithTag("Player");
-
+		player = GameObject.FindGameObjectWithTag("Player");
+		PlayerLeftLeg = GameObject.FindGameObjectWithTag("LeftLeg");
+		PlayerRightLeg = GameObject.FindGameObjectWithTag("RightLeg");
+	/*
 		ashiba001 = GameObject.FindGameObjectWithTag("ashiba001");
 		ashiba002 = GameObject.FindGameObjectWithTag("ashiba002");
 		ashiba003 = GameObject.FindGameObjectWithTag("ashiba003");
@@ -52,20 +56,73 @@ public class AshibaManager : MonoBehaviour {
 		
 	}
 
-	void OnTriggerStay(Collider other)
+	void OnTriggerStay(Collider PlayerLeftLeg)
     {
-		Renderer rend001 = GetComponent<Renderer>();
+		  //if (PlayerLeftLeg )
+        //{
+			Renderer rend001 = GetComponent<Renderer>();
 
-        //Set the main Color of the Material to green
-        rend001.material.shader = Shader.Find("_Color");
-        rend001.material.SetColor("_Color", Color.blue);
+       	 	//Set the main Color of the Material to green
+        	rend001.material.shader = Shader.Find("_Color");
+        	rend001.material.SetColor("_Color", Color.blue);
 
-        //Find the Specular shader and change its Color to red
-        rend001.material.shader = Shader.Find("Specular");
-        rend001.material.SetColor("_SpecColor", Color.green);
+        	//Find the Specular shader and change its Color to red
+        	rend001.material.shader = Shader.Find("Specular");
+        	rend001.material.SetColor("_SpecColor", Color.green);
 	 	
-		 Debug.Log ("当たった");
+		 	Debug.Log ("左足が当たった");
+		//}
   //   rend.Shader = Red;
+
+	/*	if (PlayerRightLeg)
+        {
+			Renderer rend001 = GetComponent<Renderer>();
+
+       	 	//Set the main Color of the Material to green
+        	rend001.material.shader = Shader.Find("_Color");
+        	rend001.material.SetColor("_Color", Color.blue);
+
+        	//Find the Specular shader and change its Color to red
+        	rend001.material.shader = Shader.Find("Specular");
+        	rend001.material.SetColor("_SpecColor", Color.green);
+	 	
+		 	Debug.Log ("右足が当たった");
+		}*/
+               
+    }
+
+	void OnTriggerEnter(Collider PlayerRightLeg)
+    {
+		  //if (PlayerLeftLeg )
+        //{
+			Renderer rend001 = GetComponent<Renderer>();
+
+       	 	//Set the main Color of the Material to green
+        	rend001.material.shader = Shader.Find("_Color");
+        	rend001.material.SetColor("_Color", Color.blue);
+
+        	//Find the Specular shader and change its Color to red
+        	rend001.material.shader = Shader.Find("Specular");
+        	rend001.material.SetColor("_SpecColor", Color.green);
+	 	
+		 	Debug.Log ("右足が当たった");
+		//}
+  //   rend.Shader = Red;
+
+	/*	if (PlayerRightLeg)
+        {
+			Renderer rend001 = GetComponent<Renderer>();
+
+       	 	//Set the main Color of the Material to green
+        	rend001.material.shader = Shader.Find("_Color");
+        	rend001.material.SetColor("_Color", Color.blue);
+
+        	//Find the Specular shader and change its Color to red
+        	rend001.material.shader = Shader.Find("Specular");
+        	rend001.material.SetColor("_SpecColor", Color.green);
+	 	
+		 	Debug.Log ("右足が当たった");
+		}*/
                
     }
 }
