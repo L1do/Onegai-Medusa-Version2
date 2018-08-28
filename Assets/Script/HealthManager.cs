@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour {
@@ -10,7 +10,7 @@ public class HealthManager : MonoBehaviour {
     public int startingHealth = 100;
     public int CurrentHealth;
     public int CollisionDamage = 33;
-    public Slider Health;
+   // public Slider Health;
 
     
 
@@ -37,7 +37,7 @@ public class HealthManager : MonoBehaviour {
        CurrentHealth -= amount;
 
         // Set the health bar's value to the current health.
-        Health.value = CurrentHealth;
+        //Health.value = CurrentHealth;
 
         
         if (CurrentHealth <= 0 )

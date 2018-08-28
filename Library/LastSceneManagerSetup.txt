@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/CowboyTunnelBetaLevel001.unity
+- path: Assets/Scenes/rhythm test.unity
   isLoaded: 1
   isActive: 1

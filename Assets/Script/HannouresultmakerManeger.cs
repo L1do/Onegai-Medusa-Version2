@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 
 public class HannouresultmakerManeger : MonoBehaviour {
 
@@ -10,8 +10,8 @@ public class HannouresultmakerManeger : MonoBehaviour {
    // Animator GoodText;
    // Animator PerfectText;
 
-    public Image GoodImage;
-    public Image PerfectImage;
+    //public Image GoodImage;
+    //public Image PerfectImage;
     public float HannouflashSpeed = 40f;
     public Color GoodOpaque= new Color(255f, 239f, 19f, 255f);
     public Color Clear = new Color(0f, 0f, 0f, 0.0f);
@@ -46,7 +46,7 @@ public class HannouresultmakerManeger : MonoBehaviour {
 
         Debug.Log ("PERFECT");
             // PerfectText.SetTrigger("PERFECT");
-            PerfectImage.color = PerfectOpaque;
+          //  PerfectImage.color = PerfectOpaque;
 
         }
 
@@ -55,7 +55,7 @@ public class HannouresultmakerManeger : MonoBehaviour {
 
             Debug.Log("GOOD");
             // GoodText.SetTrigger("GOOD");
-            GoodImage.color = GoodOpaque;
+          //  GoodImage.color = GoodOpaque;
 
 
         }
@@ -68,8 +68,8 @@ public class HannouresultmakerManeger : MonoBehaviour {
     {
 
         HannouManeger.colnumber = 0;
-        PerfectImage.color = Clear;
-        GoodImage.color = Clear;
+   //     PerfectImage.color = Clear;
+   //     GoodImage.color = Clear;
 
 
     }
