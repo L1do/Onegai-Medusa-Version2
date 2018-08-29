@@ -35,8 +35,8 @@ public class CollisionManeger : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // ... damage the player.
-        health.TakeDamage(colDamage);
-        // Debug.Log("当たった！！！");
+        //health.TakeDamage(colDamage);
+         Debug.Log("当たった！！！");
         //  playerAudio.clip = DamageClip;
         //   playerAudio.Play();
         
