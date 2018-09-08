@@ -63,37 +63,113 @@
      <Compile Include="Assets\SpriteStudio\Editor\MenuItem_SpriteStudio.cs" />
      <Compile Include="Assets\SpriteStudio\Editor\Sample\BatchImport\LibraryEditor_SpriteStudio_Sample_BachImport.cs" />
      <Compile Include="Assets\SpriteStudio\Editor\Sample\BatchImport\MenuItem_SpriteStudio_Sample_BatchImport.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Import\Batch.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Import\Setting.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Import\SSAE.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Import\SSCE.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Import\SSEE.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Import\SSPJ.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Inspector\Inspector_SpriteStudio6_Collider.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Inspector\Inspector_SpriteStudio6_ControlPrefab.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Inspector\Inspector_SpriteStudio6_DataAnimation.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Inspector\Inspector_SpriteStudio6_DataCellMap.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Inspector\Inspector_SpriteStudio6_DataEffect.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Inspector\Inspector_SpriteStudio6_Root.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Inspector\Inspector_SpriteStudio6_RootEffect.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\LibraryEditor_SpriteStudio6.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Tools\About.cs" />
+     <Compile Include="Assets\SpriteStudio6\Editor\Tools\Importer.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Sprite_UnityNative.cginc" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Sub.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_MulNA.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_NonBatch.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Scr.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Sub.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Inv.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Scr.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Stencil_SpriteStudio6.cginc" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Add2.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Sub.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Mask_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Exc.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\Shader_Data_UnityNative.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Exc.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Add.shader" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderPixel_Particle_SpriteStudio.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Exc.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\SpriteStudio6Sample\Doll\SpriteStudioProject\SS6PU_ImportSetting.txt" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_SkinnedMesh_UnityNative.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_Draw.shader" />
      <None Include="Assets\UnityChan\license.txt" />
      <None Include="Assets\SpriteStudioSample\basic\SpriteStudioProject\BachImport.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\Shader_Data_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Scr.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Inv.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Sprite_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Documents\BatchImporter\List_BatchImporter.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_PreDraw.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Sub.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_MulNA.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Mix.shader" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Exc.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Mul.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_MulNA.shader" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderPixel_Sprite_SpriteStudio.cginc" />
      <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\SpriteStudio6Sample\Doll\List_BatchImporter.txt" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Add.shader" />
+     <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\SpriteStudioProject\SS6PU_ImportSetting.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_MulNA.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative.shader" />
      <None Include="Assets\SpriteStudioSample\Gauge\BachImport.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Inv.shader" />
      <None Include="Assets\SpriteStudioSample\BitmapFontNumeric\SpriteStudioProject\BachImport.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Effect_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Effect_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Inv.shader" />
      <None Include="Assets\SpriteStudio\Editor\Sample\BatchImport\BatchList\ListingSample.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Add.shader" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Add.shader" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderVertex_Sprite_SpriteStudio.cginc" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderVertex_Particle_SpriteStudio.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Sub.shader" />
+     <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\List_BatchImporter.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Sprite_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Thru_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Scr.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Sprite_UnityNative.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_Clear.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Mask_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Thru_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -183,6 +259,24 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="SyntaxTree.Mono.Cecil">
+ <HintPath>C:/Users/lawre/Documents/Onegai-Medusa/Assets/UnityVS/Editor/SyntaxTree.Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/lawre/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
