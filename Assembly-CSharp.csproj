@@ -98,6 +98,7 @@
      <Compile Include="Assets\Script\CollisionManeger.cs" />
      <Compile Include="Assets\Script\DamageVisualizermanager.cs" />
      <Compile Include="Assets\Script\FinishLineManager.cs" />
+     <Compile Include="Assets\Script\FirstGearManager.cs" />
      <Compile Include="Assets\Script\FloorSpeedManager.cs" />
      <Compile Include="Assets\Script\GameManeger.cs" />
      <Compile Include="Assets\Script\HannouManeger.cs" />
@@ -130,10 +131,15 @@
      <Compile Include="Assets\Script\RouteBManager.cs" />
      <Compile Include="Assets\Script\RouteSelectManeger.cs" />
      <Compile Include="Assets\Script\SceneManeger.cs" />
+     <Compile Include="Assets\Script\SecondGearManager.cs" />
      <Compile Include="Assets\Script\SoundEffectManager.cs" />
+     <Compile Include="Assets\Script\SpeedBumpManager.cs" />
+     <Compile Include="Assets\Script\SpeedManager.cs" />
      <Compile Include="Assets\Script\SpriteMananger.cs" />
      <Compile Include="Assets\Script\StartManager.cs" />
+     <Compile Include="Assets\Script\ThirdGearManager.cs" />
      <Compile Include="Assets\Script\VectorExtensions.cs" />
+     <Compile Include="Assets\Script\ZeroGearManager.cs" />
      <Compile Include="Assets\SpriteStudio\Script\Script_SpriteStudio_Collider.cs" />
      <Compile Include="Assets\SpriteStudio\Script\Script_SpriteStudio_ControlPrefab.cs" />
      <Compile Include="Assets\SpriteStudio\Script\Script_SpriteStudio_DataAnimation.cs" />
