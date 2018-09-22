@@ -176,9 +176,12 @@
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderPixel_Particle_SpriteStudio.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Exc.shader" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader" />
      <None Include="Assets\SpriteStudio6Sample\Doll\SpriteStudioProject\SS6PU_ImportSetting.txt" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Mul.shader" />
+     <None Include="Assets\Anima2D\Version.txt" />
      <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_SkinnedMesh_UnityNative.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_Draw.shader" />
      <None Include="Assets\UnityChan\license.txt" />
@@ -208,11 +211,14 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
      <None Include="Assets\SpriteStudio6Sample\Doll\List_BatchImporter.txt" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Add.shader" />
+     <None Include="Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader" />
+     <None Include="Assets\Anima2D\Licenses.txt" />
      <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\SpriteStudioProject\SS6PU_ImportSetting.txt" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_MulNA.shader" />
      <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Mix.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative.shader" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader" />
      <None Include="Assets\SpriteStudioSample\Gauge\BachImport.txt" />
      <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Inv.shader" />
      <None Include="Assets\SpriteStudioSample\BitmapFontNumeric\SpriteStudioProject\BachImport.txt" />
@@ -228,6 +234,7 @@
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderVertex_Particle_SpriteStudio.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Sub.shader" />
      <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\List_BatchImporter.txt" />
+     <None Include="Assets\Anima2D\Readme.txt" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Mul.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Sprite_SpriteStudio6.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Thru_Add.shader" />

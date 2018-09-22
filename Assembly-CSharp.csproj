@@ -51,6 +51,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Anima2D\Examples\Scripts\CharacterMotion.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\Follow.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SkinnedMeshCombiner.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringCollider.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpringManager.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycle.cs" />
+     <Compile Include="Assets\Anima2D\Examples\Scripts\SpriteCycleParallax.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Bone2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Control.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\EditorUpdaterProxy.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Ik2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkCCD2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkGroup.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkLimb2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2D.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DCCD.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\IkSolver2DLimb.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\MathUtils.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\Pose.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\PoseManager.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
+     <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
@@ -72,6 +98,7 @@
      <Compile Include="Assets\Script\CollisionManeger.cs" />
      <Compile Include="Assets\Script\DamageVisualizermanager.cs" />
      <Compile Include="Assets\Script\FinishLineManager.cs" />
+     <Compile Include="Assets\Script\FloorSpeedManager.cs" />
      <Compile Include="Assets\Script\GameManeger.cs" />
      <Compile Include="Assets\Script\HannouManeger.cs" />
      <Compile Include="Assets\Script\HannouresultmakerManeger.cs" />
@@ -205,9 +232,12 @@
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderPixel_Particle_SpriteStudio.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Exc.shader" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader" />
      <None Include="Assets\SpriteStudio6Sample\Doll\SpriteStudioProject\SS6PU_ImportSetting.txt" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Mul.shader" />
+     <None Include="Assets\Anima2D\Version.txt" />
      <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_SkinnedMesh_UnityNative.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_Draw.shader" />
      <None Include="Assets\UnityChan\license.txt" />
@@ -237,11 +267,14 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
      <None Include="Assets\SpriteStudio6Sample\Doll\List_BatchImporter.txt" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Add.shader" />
+     <None Include="Assets\Anima2D\Examples\Shaders\Unlit-Alpha-Cull-off.shader" />
+     <None Include="Assets\Anima2D\Licenses.txt" />
      <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\SpriteStudioProject\SS6PU_ImportSetting.txt" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_MulNA.shader" />
      <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Mix.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative.shader" />
+     <None Include="Assets\Anima2D\Examples\Shaders\VertexLitOneDirectional.shader" />
      <None Include="Assets\SpriteStudioSample\Gauge\BachImport.txt" />
      <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Inv.shader" />
      <None Include="Assets\SpriteStudioSample\BitmapFontNumeric\SpriteStudioProject\BachImport.txt" />
@@ -257,6 +290,7 @@
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderVertex_Particle_SpriteStudio.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Sub.shader" />
      <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\List_BatchImporter.txt" />
+     <None Include="Assets\Anima2D\Readme.txt" />
      <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Mul.shader" />
      <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Sprite_SpriteStudio6.cginc" />
      <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Thru_Add.shader" />
