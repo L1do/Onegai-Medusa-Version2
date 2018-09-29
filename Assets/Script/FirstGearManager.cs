@@ -8,17 +8,27 @@ public class FirstGearManager : MonoBehaviour {
 	//public float moveSpeed = 5f;
 	public GameObject SpeedBump001;
 	//private FirstGearManager speedManager;
+	public GameObject StartStage;
+	public GameObject RouteSelectStage;
+	public GameObject BossStage;
 	public GameObject AshibaSet001;
 	public GameObject AshibaSet002;
+
+	public GameObject AshibaSet003A;
 	public GameObject PoseStage001;
-	public GameObject PoseStage002;
+	public GameObject RouteManager;
+	
 	// Use this for initialization
 	void Awake () {
 	AshibaSet001 = GameObject.FindGameObjectWithTag("AshibaSet001");
 	AshibaSet002 = GameObject.FindGameObjectWithTag("AshibaSet002");
 	PoseStage001 = GameObject.FindGameObjectWithTag("PoseStage001");
 	SpeedBump001 = GameObject.FindGameObjectWithTag("SpeedBump001");
-	PoseStage002 = GameObject.FindGameObjectWithTag("PoseStage002");
+	RouteSelectStage = GameObject.FindGameObjectWithTag("RouteSelectStage");
+	StartStage = GameObject.FindGameObjectWithTag("StartStage");
+	BossStage = GameObject.FindGameObjectWithTag("BossStage");
+	AshibaSet003A = GameObject.FindGameObjectWithTag("AshibaSet003A");
+	RouteManager = GameObject.FindGameObjectWithTag("RouteManager");
 	}
 	void Start () {
 		 
@@ -34,7 +44,11 @@ public class FirstGearManager : MonoBehaviour {
 	AshibaSet002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	PoseStage001.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	SpeedBump001.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
-	PoseStage002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	RouteSelectStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	StartStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	BossStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	AshibaSet003A.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	RouteManager.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	
 	}
 }
