@@ -45,7 +45,7 @@ public class AshibaManager02 : MonoBehaviour {
 
         //Set the main Color of the Material to green
         rend.material.shader = Shader.Find("_Color");
-        rend.material.SetColor("_Color", Color.green);
+        rend.material.SetColor("_Color", Color.grey);
 
         //Find the Specular shader and change its Color to red
         rend.material.shader = Shader.Find("Specular");
@@ -64,7 +64,7 @@ public class AshibaManager02 : MonoBehaviour {
 
        	//Set the main Color of the Material to green
         rend001.material.shader = Shader.Find("_Color");
-        rend001.material.SetColor("_Color", Color.red);
+        rend001.material.SetColor("_Color", Color.yellow);
 
         //Find the Specular shader and change its Color to red
         rend001.material.shader = Shader.Find("Specular");
