@@ -7,6 +7,7 @@ public class FirstGearManager : MonoBehaviour {
 
 	//public float moveSpeed = 5f;
 	public GameObject SpeedBump001;
+	public GameObject SpeedBump002;
 	//private FirstGearManager speedManager;
 	public GameObject StartStage;
 	public GameObject RouteSelectStage;
@@ -29,13 +30,14 @@ public class FirstGearManager : MonoBehaviour {
 	BossStage = GameObject.FindGameObjectWithTag("BossStage");
 	AshibaSet003A = GameObject.FindGameObjectWithTag("AshibaSet003A");
 	RouteManager = GameObject.FindGameObjectWithTag("RouteManager");
+	SpeedBump002= GameObject.FindGameObjectWithTag("SpeedBump002");
 	}
 	void Start () {
 		 
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 	 /*Vector3 pos = this.gameObject.transform.localPosition;
         pos.z += -0.1f;
         this.gameObject.transform.localPosition = pos;*/
@@ -49,6 +51,7 @@ public class FirstGearManager : MonoBehaviour {
 	BossStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	AshibaSet003A.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	RouteManager.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	SpeedBump002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	
 	}
 }

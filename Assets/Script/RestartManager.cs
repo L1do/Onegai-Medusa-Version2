@@ -32,7 +32,7 @@ public class RestartManager : MonoBehaviour {
 	void Update () {
 		
 	}
-	void OnTriggerEnter(Collider other) {
+	void OnTriggerStay(Collider other) {
 
 	Debug.Log ("Speed up Again");
 	
