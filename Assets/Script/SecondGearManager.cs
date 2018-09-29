@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class SecondGearManager : MonoBehaviour {
 	public float normalSpeed = 10f;
-	//public float moveSpeed = 5f;
+
 	public GameObject SpeedBump001;
 	public GameObject SpeedBump002;
 	public GameObject SpeedBump003;
-	//private FirstGearManager speedManager;
+	
 	public GameObject StartStage;
 	public GameObject RouteSelectStage;
 	public GameObject BossStage;
 	public GameObject AshibaSet001;
 	public GameObject AshibaSet002;
-
 	public GameObject AshibaSet003A;
 	public GameObject PoseStage001;
 	public GameObject RouteManager;
