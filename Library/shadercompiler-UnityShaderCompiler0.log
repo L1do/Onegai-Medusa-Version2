@@ -1,2 +1,36 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1095 outsize=937 ok=1
+Cmd: preprocess
+  insize=766 outsize=677 ok=1
+Cmd: preprocess
+  insize=1107 outsize=949 ok=1
+Cmd: preprocess
+  insize=1403 outsize=1108 ok=1
+Cmd: preprocess
+  insize=1136 outsize=546 ok=1
+Cmd: preprocess
+  insize=1191 outsize=633 ok=1
+Cmd: preprocess
+  insize=755 outsize=665 ok=1
+Cmd: preprocess
+  insize=757 outsize=667 ok=1
+Cmd: preprocess
+  insize=1458 outsize=1475 ok=1
+Cmd: preprocess
+  insize=1113 outsize=955 ok=1
+Cmd: preprocess
+  insize=662 outsize=573 ok=1
+Cmd: preprocess
+  insize=870 outsize=713 ok=1
+Cmd: preprocess
+  insize=1401 outsize=1106 ok=1
+Cmd: preprocess
+  insize=769 outsize=679 ok=1
+Cmd: preprocess
+  insize=1093 outsize=935 ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=14339 outsize=3565 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME ok=1
+Cmd: compileSnippet
+  api=14 type=1 insize=14339 outsize=4103 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME ok=1
