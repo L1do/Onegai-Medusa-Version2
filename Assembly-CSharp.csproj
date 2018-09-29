@@ -114,6 +114,7 @@
      <Compile Include="Assets\Script\SpeedBumpManager.cs" />
      <Compile Include="Assets\Script\SpeedManager.cs" />
      <Compile Include="Assets\Script\SpriteMananger.cs" />
+     <Compile Include="Assets\Script\StageCleanerManager.cs" />
      <Compile Include="Assets\Script\StartManager.cs" />
      <Compile Include="Assets\Script\ThirdGearManager.cs" />
      <Compile Include="Assets\Script\VectorExtensions.cs" />
@@ -183,7 +184,6 @@
      <Compile Include="Assets\SpriteStudioSample\Gauge\Bar\Scripts\SS5PUSample_Gauge_Bar.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Meter\Scripts\SS5PUSample_Gauge_Meter.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Sample_UpdateGauges.cs" />
-     <Compile Include="Assets\StageCleanerManager.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />

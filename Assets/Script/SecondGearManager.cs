@@ -7,8 +7,7 @@ public class SecondGearManager : MonoBehaviour {
 
 	public GameObject SpeedBump001;
 	public GameObject SpeedBump002;
-	public GameObject SpeedBump003;
-	
+	public GameObject SpeedBump003;	
 	public GameObject StartStage;
 	public GameObject RouteSelectStage;
 	public GameObject BossStage;
@@ -17,7 +16,6 @@ public class SecondGearManager : MonoBehaviour {
 	public GameObject AshibaSet003A;
 	public GameObject PoseStage001;
 	public GameObject RouteManager;
-
 	void Awake () {
 	AshibaSet001 = GameObject.FindGameObjectWithTag("AshibaSet001");
 	AshibaSet002 = GameObject.FindGameObjectWithTag("AshibaSet002");
