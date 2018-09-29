@@ -8,6 +8,7 @@ public class FirstGearManager : MonoBehaviour {
 	//public float moveSpeed = 5f;
 	public GameObject SpeedBump001;
 	public GameObject SpeedBump002;
+	public GameObject SpeedBump003;
 	//private FirstGearManager speedManager;
 	public GameObject StartStage;
 	public GameObject RouteSelectStage;
@@ -31,6 +32,7 @@ public class FirstGearManager : MonoBehaviour {
 	AshibaSet003A = GameObject.FindGameObjectWithTag("AshibaSet003A");
 	RouteManager = GameObject.FindGameObjectWithTag("RouteManager");
 	SpeedBump002= GameObject.FindGameObjectWithTag("SpeedBump002");
+	SpeedBump003= GameObject.FindGameObjectWithTag("SpeedBump003");
 	}
 	void Start () {
 		 
@@ -52,6 +54,7 @@ public class FirstGearManager : MonoBehaviour {
 	AshibaSet003A.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	RouteManager.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	SpeedBump002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	SpeedBump003.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	
 	}
 }
