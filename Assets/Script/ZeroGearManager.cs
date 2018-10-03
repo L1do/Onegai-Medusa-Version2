@@ -36,7 +36,7 @@ public class ZeroGearManager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 	 /*Vector3 pos = this.gameObject.transform.localPosition;
         pos.z += -0.1f;
         this.gameObject.transform.localPosition = pos;*/
