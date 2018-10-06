@@ -7,6 +7,7 @@ public class AshibaManager : MonoBehaviour {
 	GameObject player;
 	GameObject PlayerLeftLeg;
 	GameObject PlayerRightLeg;
+	GameObject GreenPainter;
 
 	//private Color Red = new Color(24f, 100f, 100f, 21f);
 /*
@@ -29,6 +30,7 @@ public class AshibaManager : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player");
 		PlayerLeftLeg = GameObject.FindGameObjectWithTag("LeftLeg");
 		PlayerRightLeg = GameObject.FindGameObjectWithTag("RightLeg");
+		GreenPainter = GameObject.FindGameObjectWithTag("GreenPainter");
 	/*
 		ashiba001 = GameObject.FindGameObjectWithTag("ashiba001");
 		ashiba002 = GameObject.FindGameObjectWithTag("ashiba002");
@@ -56,6 +58,25 @@ public class AshibaManager : MonoBehaviour {
 		
 	}
 
+
+	void OnTriggerEnter(Collider GreenPainter)
+    {
+		 
+		Renderer rend001 = GetComponent<Renderer>();
+
+       	//Set the main Color of the Material to green
+        rend001.material.shader = Shader.Find("_Color");
+        rend001.material.SetColor("_Color", Color.green);
+
+        //Find the Specular shader and change its Color to red
+        rend001.material.shader = Shader.Find("Specular");
+        rend001.material.SetColor("_SpecColor", Color.green);
+	 	
+		Debug.Log ("turn green");
+	
+             
+    }
+
 	void OnTriggerStay(Collider PlayerLeftLeg)
     {
 		  
@@ -69,7 +90,7 @@ public class AshibaManager : MonoBehaviour {
         rend001.material.shader = Shader.Find("Specular");
         rend001.material.SetColor("_SpecColor", Color.green);
 	 	
-		Debug.Log ("左足が当たった");
+		//Debug.Log ("左足が当たった");
 		           
     }
 
