@@ -35,7 +35,7 @@ public class RouteBManager : MonoBehaviour {
 
 	}
 
-		void OnTriggerEnter(Collider other)
+		void OnTriggerStay(Collider other)
     {
 		  
 		Debug.Log ("Route B を選択しました ");
