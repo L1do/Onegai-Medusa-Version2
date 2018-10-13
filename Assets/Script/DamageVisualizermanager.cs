@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-//using UnityEngine.UI;
+using UnityEngine.UI;
 using System.Collections;
 
 
 public class DamageVisualizermanager : MonoBehaviour {
 
    //public CameraShakeManager Shake; 
-   // public Image DamageImage;    
+    public Image DamageImage;    
     public float flashSpeed = 10f;                               
     public Color flashColour = new Color(1f, 0f, 0f,0.1f);
     public Color clearColour = new Color(0f, 0f, 0f, 0.0f);
@@ -23,6 +23,7 @@ public class DamageVisualizermanager : MonoBehaviour {
 
     void Awake()
     {
+      //DamageImage = GameObject.FindGameObjectWithTag("DamageImage");
         //playerAudio = GetComponent<AudioSource>();
         //kamigubuki
        // anim = GetComponent<Animator>();
@@ -44,7 +45,7 @@ public class DamageVisualizermanager : MonoBehaviour {
         // Set the damaged flag so the screen will flash.
         // damaged = true;
        // Debug.Log("当たった！！！");
-      // DamageImage.color = flashColour;
+       DamageImage.color = flashColour;
         // Play the hurt sound effect.
         // playerAudio.Play();
        // Shake.StartCameraShake();
@@ -56,7 +57,7 @@ public class DamageVisualizermanager : MonoBehaviour {
         // Set the damaged flag so the screen will flash.
         // damaged = true;
         
-      //  DamageImage.color = clearColour;
+      DamageImage.color = clearColour;
         // Play the hurt sound effect.
         // playerAudio.Play();
 
