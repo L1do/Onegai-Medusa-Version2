@@ -29,7 +29,7 @@ public class SpeedManager : MonoBehaviour {
 		
 	}
 
-	void OnTriggerEnter(Collider other) {
+	void OnTriggerStay(Collider other) {
 
 	Debug.Log ("Changed Gear!");
 	

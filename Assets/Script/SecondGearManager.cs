@@ -15,6 +15,7 @@ public class SecondGearManager : MonoBehaviour {
 	public GameObject AshibaSet002;
 	public GameObject AshibaSet003A;
 	public GameObject PoseStage001;
+	public GameObject AshibaSet003B;
 	public GameObject RouteManager;
 	void Awake () {
 	AshibaSet001 = GameObject.FindGameObjectWithTag("AshibaSet001");
@@ -25,6 +26,7 @@ public class SecondGearManager : MonoBehaviour {
 	StartStage = GameObject.FindGameObjectWithTag("StartStage");
 	BossStage = GameObject.FindGameObjectWithTag("BossStage");
 	AshibaSet003A = GameObject.FindGameObjectWithTag("AshibaSet003A");
+	AshibaSet003B = GameObject.FindGameObjectWithTag("AshibaSet003B");	
 	RouteManager = GameObject.FindGameObjectWithTag("RouteManager");
 	SpeedBump002= GameObject.FindGameObjectWithTag("SpeedBump002");
 	SpeedBump003= GameObject.FindGameObjectWithTag("SpeedBump002");
@@ -50,6 +52,7 @@ public class SecondGearManager : MonoBehaviour {
 	RouteManager.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	SpeedBump002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	SpeedBump003.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	AshibaSet003B.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 		/*  Vector3 pos = this.gameObject.transform.localPosition;
         pos.z += -1.1f;
         this.gameObject.transform.localPosition = pos;*/

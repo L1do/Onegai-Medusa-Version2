@@ -8,7 +8,7 @@ public class RouteAManager : MonoBehaviour {
 	public GameObject RouteB;
 	public GameObject AshibaSet003A;
 	public GameObject AshibaSet003B;
-	public GameObject firstGear;
+	public GameObject FirstGear;
 
 	// Use this for initialization
 
@@ -19,11 +19,13 @@ public class RouteAManager : MonoBehaviour {
 
 		AshibaSet003A = GameObject.FindGameObjectWithTag("AshibaSet003A");
 		AshibaSet003B = GameObject.FindGameObjectWithTag("AshibaSet003B");
+		FirstGear = GameObject.FindGameObjectWithTag("FirstGear");
 	}
 	void Start () {
 		
 		AshibaSet003A.gameObject.SetActive(false);	
 		AshibaSet003B.gameObject.SetActive(false);	
+	//	FirstGear.gameObject.SetActive(false);
 		
 		
 	}
@@ -35,11 +37,12 @@ public class RouteAManager : MonoBehaviour {
 
 	}
 
-		void OnTriggerEnter(Collider other)
+		void OnTriggerStay(Collider other)
     {
 		  
 		Debug.Log ("Route A を選択しました ");
 		Destroy(RouteB);
-		AshibaSet003A.gameObject.SetActive(true);	           
+		AshibaSet003A.gameObject.SetActive(true);	
+		FirstGear.gameObject.SetActive(true);           
     }
 }
