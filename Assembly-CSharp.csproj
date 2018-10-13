@@ -53,9 +53,6 @@
   <ItemGroup>
      <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
-     <Compile Include="Assets\GameStarterManager.cs" />
-     <Compile Include="Assets\GameStopperManager.cs" />
-     <Compile Include="Assets\GreenPainterManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
@@ -80,6 +77,9 @@
      <Compile Include="Assets\Script\FirstGearManager.cs" />
      <Compile Include="Assets\Script\FloorSpeedManager.cs" />
      <Compile Include="Assets\Script\GameManeger.cs" />
+     <Compile Include="Assets\Script\GameStarterManager.cs" />
+     <Compile Include="Assets\Script\GameStopperManager.cs" />
+     <Compile Include="Assets\Script\GreenPainterManager.cs" />
      <Compile Include="Assets\Script\HannouManeger.cs" />
      <Compile Include="Assets\Script\HannouresultmakerManeger.cs" />
      <Compile Include="Assets\Script\HealthManager.cs" />
