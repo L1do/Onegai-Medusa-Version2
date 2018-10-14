@@ -4,17 +4,27 @@ using UnityEngine;
 
 public class GameStarterManager : MonoBehaviour {
 
+	GameObject RightHand;
+	GameObject LeftHand;
+	GameObject SpeedManager;
 
-	//GameObject SpeedManager;
+	GameObject firstGear;
+
+	GameObject zeroGear;
+
 
 	// Use this for initialization
-	void Awake (){
-
-	//	SpeedManager = GameObject.FindGameObjectWithTag("SpeedManager");
+	void Awake ()
+	{
+		zeroGear = GameObject.FindGameObjectWithTag("ZeroGear");
+		firstGear = GameObject.FindGameObjectWithTag("FirstGear");
+		RightHand = GameObject.FindGameObjectWithTag("RightHand");
+		LeftHand = GameObject.FindGameObjectWithTag("LeftHand");
 	}
 	void Start () {
 
-//		SpeedManager.gameObject.SetActive(false);		
+			//firstGear.gameObject.SetActive(true);
+			//zeroGear.gameObject.SetActive(false);	
 		
 	}
 	
@@ -24,7 +34,8 @@ public class GameStarterManager : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other)
     {
-		  
+		firstGear.gameObject.SetActive(true);
+		zeroGear.gameObject.SetActive(false);	
 		Debug.Log ("Start Game");
 //		SpeedManager.gameObject.SetActive(true);	
 			
