@@ -89,6 +89,7 @@
      <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
      <Compile Include="Assets\Script\AshibaManager.cs" />
      <Compile Include="Assets\Script\AshibaManager02.cs" />
+     <Compile Include="Assets\Script\AshibaShaderManager.cs" />
      <Compile Include="Assets\Script\AudioPlayer.cs" />
      <Compile Include="Assets\Script\BackToStartManager.cs" />
      <Compile Include="Assets\Script\BatsuCollisionManeger.cs" />
