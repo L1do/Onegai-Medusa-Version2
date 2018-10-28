@@ -8,8 +8,10 @@ public class AshibaShaderManager : MonoBehaviour {
 	GameObject player;
 	GameObject PlayerLeftLeg;
 	GameObject PlayerRightLeg;
-	public Animator MaterialAnimator;
-	public bool IsPlayingAnimation = false;
+	public Animation MaterialAnimator;
+
+	GameObject Footing;
+	public bool Ishit = false;
 	//GameObject GreenPainter;
 	//Shader Blueshader;
 	//Shader GreenShader;
@@ -23,17 +25,19 @@ public class AshibaShaderManager : MonoBehaviour {
 	void Awake()
 	{	
 		//get the animator component
-		MaterialAnimator= GetComponent <Animator> ();
+		MaterialAnimator= GetComponent <Animation> ();
+		Footing = GameObject.FindGameObjectWithTag("footing");
 	}
 
 	// Use this for initialization
 	void Start () 
     {
-    	
+		MaterialAnimator.Stop();
     	//find all the gameobjects using tag
 		player = GameObject.FindGameObjectWithTag("Player");
 		PlayerLeftLeg = GameObject.FindGameObjectWithTag("LeftLeg");
 		PlayerRightLeg = GameObject.FindGameObjectWithTag("RightLeg");
+		
 		//GreenPainter = GameObject.FindGameObjectWithTag("GreenPainter");
 	//	AshibaShaderMaterialBlue = Find
 
@@ -53,14 +57,18 @@ public class AshibaShaderManager : MonoBehaviour {
 	void Update ()
 
 	{
+		
+		//if (!MaterialAnimator.isPlaying)
+          //  MaterialAnimator.Play();
 		//MaterialAnimator.SetBool("Close");
 	}
 	
 	// if ashiba colliders collide with another collider then start playing the animation
 	void OnTriggerEnter(Collider other)
     {
-    	MaterialAnimator= GetComponent <Animator> ();
-    	//animator.SetBool("BOOLNAME"true);
+		MaterialAnimator.Play();
+		Ishit = true;
+    	    	//animator.SetBool("BOOLNAME"true);
     	//MaterialAnimation.SetBool("walk", true);
 
     	//MaterialAnimation = GetComponent <Animator> ();
@@ -80,20 +88,22 @@ public class AshibaShaderManager : MonoBehaviour {
 		           
     }
 
-	/*void OnTriggerExit(Collider other)
+	void OnTriggerExit(Collider other)
     {
-		  
+		if(Ishit = false)
+		{  
 		Renderer rend001 = GetComponent<Renderer>();
 
        	//Set the main Color of the Material to green
         rend001.material.shader = Shader.Find("_Color");
-        rend001.material.SetColor("_Color", Color.yellow);
+        rend001.material.SetColor("_Color", Color.red);
 
         //Find the Specular shader and change its Color to red
         rend001.material.shader = Shader.Find("Specular");
-        rend001.material.SetColor("_SpecColor", Color.yellow);
+        rend001.material.SetColor("_SpecColor", Color.red);
+		}
 	 	
 		//Debug.Log ("左足が当たった");
 		           
-    }*/
+    }
 }
