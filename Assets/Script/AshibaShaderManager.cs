@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AshibaShaderManager : MonoBehaviour {
 
@@ -12,6 +13,13 @@ public class AshibaShaderManager : MonoBehaviour {
 
 	GameObject Footing;
 	public bool Ishit = false;
+
+	
+
+	//reference to the hannou Animator
+	
+
+
 	//GameObject GreenPainter;
 	//Shader Blueshader;
 	//Shader GreenShader;
@@ -25,14 +33,19 @@ public class AshibaShaderManager : MonoBehaviour {
 	void Awake()
 	{	
 		//get the animator component
-		MaterialAnimator= GetComponent <Animation> ();
+		MaterialAnimator = GetComponent <Animation> ();
+	
+		
 		Footing = GameObject.FindGameObjectWithTag("footing");
+		// switch off the UIHannou Images
+	
 	}
 
 	// Use this for initialization
 	void Start () 
     {
 		MaterialAnimator.Stop();
+		//HannouAnimation.Stop();
     	//find all the gameobjects using tag
 		player = GameObject.FindGameObjectWithTag("Player");
 		PlayerLeftLeg = GameObject.FindGameObjectWithTag("LeftLeg");
@@ -64,10 +77,11 @@ public class AshibaShaderManager : MonoBehaviour {
 	}
 	
 	// if ashiba colliders collide with another collider then start playing the animation
-	void OnTriggerEnter(Collider other)
+	public void OnTriggerEnter(Collider other)
     {
 		MaterialAnimator.Play();
 		Ishit = true;
+		//HannouAnimation.Play();
     	    	//animator.SetBool("BOOLNAME"true);
     	//MaterialAnimation.SetBool("walk", true);
 
@@ -88,10 +102,11 @@ public class AshibaShaderManager : MonoBehaviour {
 		           
     }
 
-	void OnTriggerExit(Collider other)
+	public void OnTriggerExit(Collider other)
     {
 		if(Ishit = false)
 		{  
+		
 		Renderer rend001 = GetComponent<Renderer>();
 
        	//Set the main Color of the Material to green
