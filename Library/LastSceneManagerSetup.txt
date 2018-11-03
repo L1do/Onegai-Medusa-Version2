@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Beta Play Test.unity
+- path: Assets/Scenes/Anima2D_Kenkyu.unity
   isLoaded: 1
   isActive: 1
